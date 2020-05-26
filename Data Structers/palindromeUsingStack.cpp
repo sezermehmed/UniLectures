@@ -1,4 +1,5 @@
-//Sezer Mehmed - String Palindrome using stack
+// Make the program on the base of dynamic structure Stack, 
+// which reads a typed word from keyboard and determine if the word is palindrome (ex. ABBA, SAAS, KUAUK)
 #include <malloc.h>
 #include <cstring>
 #include <iostream>
