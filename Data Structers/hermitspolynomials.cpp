@@ -1,3 +1,4 @@
+// Make a recursive function for calculating values of Hermit's polynomials
 #include <iostream>
 using namespace std;
 int H(int x, int n)
