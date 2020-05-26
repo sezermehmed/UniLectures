@@ -4,30 +4,32 @@ using namespace std;
 deque<int> container;
 int c_size, e;
 bool isItThere = false;
-void takeInfo() 
+void takeInfo()
 {
-cout << "Enter container size: "; cin >> c_size;
-cout << "Enter elements of container: \n";
-	for(int i = 0; i < c_size; i++)
+	cout << "Enter container size: ";
+	cin >> c_size;
+	cout << "Enter elements of container: \n";
+	for (int i = 0; i < c_size; i++)
 	{
 		cin >> container[i];
 	}
-cout << "Search an element into container:  "; cin >> e;
+	cout << "Search an element into container:  ";
+	cin >> e;
 }
 void search()
 {
-	for(int i = 0; i < c_size; i++)
+	for (int i = 0; i < c_size; i++)
 	{
-		if(container[i] == e) 
+		if (container[i] == e)
 		{
 			isItThere = true;
-			break;	
+			break;
 		}
 	}
 }
-void check() 
+void check()
 {
-	if(isItThere == true) 
+	if (isItThere == true)
 	{
 		cout << e << " is included in the container. \n";
 	}
@@ -38,7 +40,7 @@ void check()
 }
 int main()
 {
-takeInfo();
-search();
-check();
+	takeInfo();
+	search();
+	check();
 }
