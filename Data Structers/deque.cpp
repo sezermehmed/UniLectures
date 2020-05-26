@@ -1,3 +1,4 @@
+// Make a function for searching of element into Deque, which is equal to integer value k. (Entered from kbr)
 #include <iostream>
 #include <deque>
 using namespace std;
