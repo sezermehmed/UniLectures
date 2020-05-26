@@ -1,3 +1,4 @@
+// Make a function which counts the elements in Binary Tree
 #include<stdlib.h>
 #include<stdio.h>
 struct TreeNode {
@@ -14,7 +15,7 @@ int countNodes(TreeNode* root) {
         return 0;
     }
     else {
-        return 1 + countNodes(root->left) + countNodes(root->right);
+        return 1 + countNodes(root->left) + countNodes(root->right);     // The Function
     }
 }
 
